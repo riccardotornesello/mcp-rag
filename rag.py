@@ -91,10 +91,10 @@ def init_vectorstore(
 
 def ingest(
     source: str,
-    source_type: str,
     embedder_client: BaseEmbedder,
     vectorstore: Vectorstore,
     collection_name: str,
+    source_type: str = "",
     max_char: int = 1000,
     metadata: dict | None = None,
 ):

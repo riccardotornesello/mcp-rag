@@ -9,6 +9,7 @@ dependencies = [
     "datapizza-ai-clients-google>=0.0.5",
     "datapizza-ai-embedders-google>=0.0.3",
     "datapizza-ai-parsers-docling>=0.0.8",
+    "fastmcp>=2.13.1",
 ]
 
 [dependency-groups]
